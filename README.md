@@ -27,7 +27,7 @@ Text Analysis Tool là ứng dụng web giúp phân tích văn bản tiếng Anh
 
 ## Yêu cầu hệ thống
 
-- Python >= 3.7
+- Python >= 3.10
 - Các thư viện: `streamlit`, `spacy`, `pandas`
 
 Cài đặt nhanh các thư viện bằng lệnh:
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 1. Khởi động ứng dụng:
    ```sh
-   streamlit run tieng_anh/main.py
+   streamlit run main.py
    ```
 2. Nhập hoặc dán đoạn văn bản tiếng Anh vào ô nhập liệu.
 3. Nhấn nút **Analyze** để xem kết quả phân tích:
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ## Cấu trúc thư mục
 
 ```
-tieng_anh/
+text_analysis_tool/
 ├── main.py           # Mã nguồn chính của ứng dụng
 ├── requirements.txt  # Danh sách thư viện cần thiết
 └── README.md         # Tài liệu hướng dẫn sử dụng
@@ -73,4 +73,4 @@ tieng_anh/
 
 ---
 
-**© 2025 - Nhóm Text Analysis Tool**
+**© 2025 - Nhóm 1**
